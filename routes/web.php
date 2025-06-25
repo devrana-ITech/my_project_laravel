@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ContentController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
@@ -29,6 +30,8 @@ Route::middleware('auth')->group(function () {
 
 
 Route::get('home', [UserController::class, 'index']);
+
+Route::resource('/content', ContentController::class);
 
 
 require __DIR__.'/auth.php';

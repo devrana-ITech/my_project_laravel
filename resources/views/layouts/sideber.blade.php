@@ -47,10 +47,10 @@
             </li>
             <li class="menu-label">UI Elements</li>
             <li>
-              <a href="widgets.html">
+              <a href="{{url('/content')}}">
                 <div class="parent-icon"><i class="bi bi-droplet-fill"></i>
                 </div>
-                <div class="menu-title">Widgets</div>
+                <div class="menu-title">Content</div>
               </a>
             </li>
             <li>
